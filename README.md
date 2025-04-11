@@ -1,14 +1,13 @@
-# Welcome to your Lovable project
+
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/1220575e-c1d8-4a38-903b-6c20317825dd
+
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
 
 Simply visit the [Lovable Project](https://lovable.dev/projects/1220575e-c1d8-4a38-903b-6c20317825dd) and start prompting.
 
