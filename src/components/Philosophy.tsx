@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BookOpen, PuzzlePiece, Star, Users, HeartHandshake, BrainCircuit } from 'lucide-react';
+import { BookOpen, Lightbulb, Star, Users, Heart, Brain } from 'lucide-react';
 
 interface PhilosophyCardProps {
   icon: JSX.Element;
@@ -29,7 +29,7 @@ const philosophyItems = [
     color: "bg-blue-100"
   },
   {
-    icon: <PuzzlePiece className="h-6 w-6 text-green-600" />,
+    icon: <Lightbulb className="h-6 w-6 text-green-600" />,
     title: "Critical Thinking",
     description: "Encouraging students to question, analyze, and develop problem-solving skills that serve them throughout life.",
     color: "bg-green-100"
@@ -47,13 +47,13 @@ const philosophyItems = [
     color: "bg-amber-100"
   },
   {
-    icon: <HeartHandshake className="h-6 w-6 text-red-600" />,
+    icon: <Heart className="h-6 w-6 text-red-600" />,
     title: "Emotional Intelligence",
     description: "Developing social-emotional skills alongside academic knowledge for well-rounded personal growth.",
     color: "bg-red-100"
   },
   {
-    icon: <BrainCircuit className="h-6 w-6 text-indigo-600" />,
+    icon: <Brain className="h-6 w-6 text-indigo-600" />,
     title: "Creative Expression",
     description: "Encouraging artistic exploration and original thinking as essential components of education.",
     color: "bg-indigo-100"

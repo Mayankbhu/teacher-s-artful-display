@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Calculator, BookOpen, Globe, Flask, Palette, Music } from 'lucide-react';
+import { Calculator, BookOpen, Globe, Beaker, Palette, Music } from 'lucide-react';
 
 interface SubjectCardProps {
   icon: JSX.Element;
@@ -58,7 +58,7 @@ const subjectsData = [
     percentage: 92,
   },
   {
-    icon: <Flask className="h-5 w-5 text-primary" />,
+    icon: <Beaker className="h-5 w-5 text-primary" />,
     title: "Science",
     description: "Natural sciences, experiments, and environmental studies",
     percentage: 88,
